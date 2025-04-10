@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+/********** Fonts **********/
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+/********** Success Pages **********/
+
+.thanks {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.icon-img-container {
+  margin-top: 140px;
+}
+
+button {
+  color: white;
+  background-color: #242742;
+  padding: 16px;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (min-width: 750px) {
+  .root-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+  }
+
+  .thanks {
+    background-color: white;
+    border: 5px solid black;
+    min-height: fit-content;
+    border-radius: 16px;
+    max-width: 500px;
+    padding: 40px;
+  }
+  .icon-img-container {
+    margin-top: 16px;
+  }
+
+  body {
+    background-color: #242742;
+  }
+
+  button {
+    color: white;
+    background-color: #242742;
+    padding: 16px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 16px;
+  }
+}
